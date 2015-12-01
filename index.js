@@ -7,7 +7,8 @@ app.use(express.static(__dirname + '/dist'));
 
 
 app.get('/', function(request, response) {
-  response.render('dist/index');
+  //response.render('dist/index');
+  response.send('Hello World!');
 });
 
 app.listen(app.get('port'), function() {
