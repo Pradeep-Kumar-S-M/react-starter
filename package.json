@@ -4,7 +4,8 @@
   "description": "Lightweight starting point for a react web app.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "gulp clean && gulp",
+    "test": "jest"
   },
   "keywords": [
     "react",
@@ -14,10 +15,6 @@
     "reflux",
     "react-router"
   ],
-  "scripts": {
-    "start": "gulp clean && gulp",
-    "test": "jest"
-  },
   "author": "@moklick <mo@webkid.io>",
   "license": "MIT",
   "devDependencies": {
@@ -45,19 +42,25 @@
     "object-assign": "^4.0.1",
     "orchestrator": "^0.3.7",
     "react-addons-test-utils": "^0.14.2",
+    "redux-devtools": "^2.1.5",
     "webpack": "^1.12.3"
   },
   "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^2.1.6",
     "history": "^1.13.0",
+    "openurl": "^1.1.0",
     "react": "^0.14.2",
     "react-addons-linked-state-mixin": "^0.14.3",
     "react-dom": "^0.14.2",
+    "react-redux": "^4.0.0",
     "react-router": "^1.0.0",
-    "reflux": "^0.3.0",
-    "ejs": "2.3.3",
-    "express": "4.13.3"
+    "redux": "^3.0.4",
+    "reflux": "^0.3.0"
   },
-   "engines": {
+  "engines": {
     "node": "0.12.7"
   },
   "jest": {
