@@ -22,7 +22,7 @@ var config = {
             data: [1, 0, 4, 5]
         }, {
             name: 'John',
-            data: [5, 7, 3, 10]
+            data: [5, 7, 3, 103]
         }]
 };
 
